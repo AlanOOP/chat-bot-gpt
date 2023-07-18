@@ -1,0 +1,9 @@
+{
+    "build": {
+      "scripts": {
+        "preBuild": "npm ci",
+        "build": "next build",
+        "postBuild": "npm run ingest"
+      }
+    }
+  }
